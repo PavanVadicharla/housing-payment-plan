@@ -39,7 +39,7 @@
           </div>
   
           <div class="contact-grid">
-            <div><label for="phone"><strong>Phone :</strong></label></div>
+            <div><label for="phone"><strong>Name:</strong></label></div>
             <div><input id="phone" type="text" /></div>
             <div><label><strong>Date :</strong></label></div>
             <div><input type="text" readonly value="31‑MAR‑2025" /></div>
@@ -55,7 +55,6 @@
   </template>
   
   <script setup lang="ts">
-  import Header from '../components/Header.vue';
   import { useRouter } from 'vue-router';
   const router = useRouter();
   function goBack() {
